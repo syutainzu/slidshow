@@ -1,29 +1,22 @@
 let count = 0;
 const mainElement = document.querySelector("div.main>img");
 const url = [
-"https://www.waseda.jp/top/assets/uploads/2014/03/hidemaro-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/maejima-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/hatoyama-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/takada-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/amano-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/hiranuma-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/shiozawa-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/shigenobu-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/nobutune-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/shiozawa-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/tanaka-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/nakano-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/shimada-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/ohama-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/abe-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/tokigoyama-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/murai-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/shimizu-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/nishihara-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/koyama-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/okujima-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2014/03/shirai-360x270.jpg",
-"https://www.waseda.jp/top/assets/uploads/2018/12/kamata.jpg"
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_001.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_002.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_003.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_004.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_005.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_006.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_007.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_008.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_009.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_0010.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_0011.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_0012.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_0013.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_0014.jpg",
+"https://www.club-t.com/ct/kanko/guide/images/k_103/k_103_0015.jpg"
+
 ];
 
 function left() {
